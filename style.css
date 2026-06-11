@@ -1,0 +1,148 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 90%;
+    margin: auto;
+    height: 100%;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: transparent;
+    position: fixed;
+    width: 90%;
+    color: white;
+    left: 5%;
+    padding: 15px 0;
+}
+nav ul{
+    display: flex;
+    gap: 50px;
+    list-style: none;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    background-color: rgba(128, 0, 128, 0.512);
+    padding: 8px 15px;
+    background-repeat: 5px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#hero{
+    width: 100%;
+    height: 100vh;
+    background: url(https://cdn.eso.org/images/screen/eso1124a.jpg);
+    color: white;
+}
+
+.btn:focus{
+    color: #04668c;
+    background-color: #fff;
+}
+
+.btn:hover{
+    background: #eeaeca;
+    background: radial-gradient(circle, #eeaeca9c rgba(0, 200, 255, 0.682));
+    box-shadow: 0 0 10px 5px #eeaeca;
+}
+
+nav a:hover{
+    background-color: #fff;
+    color: peru;
+}
+
+.hero-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+}
+.hero-text{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+
+.hero-text h1{
+    font-size: 50px;
+}
+.hero-text p{
+    font-size: 24px;
+    font-weight: bold;
+}
+.btn{
+    padding: 8px 25px;
+    color: white;
+    background: linear-gradient(
+        151deg
+        rgb(0, 102, 255) 37%
+        rgba(255, 255, 255, 0.627) 91%
+    );
+    border-radius: 22px;
+    background: #04668c;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.oila-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+}
+
+.oila-card{
+    width: 30%;
+    height: 400px;
+    background: url(./adam.jpg) no-repeat center / cover ;
+    border-radius: 10px;
+}
+
+.oila-about{
+    width: 30%;
+    height: 400px;
+    background: url(./oyim.jpg) no-repeat center / cover;
+    border-radius: 10px;
+}
+
+.oila-container{
+    width: 30%;
+    height: 400px;
+    background: url(./opam.jpg) no-repeat center / cover;
+    border-radius: 10px;
+}
+
+
+.fav-wrapper{
+    display: flex;
+    justify-content: center;
+}
+
+.fav-wrapper div{
+    width: 13%;
+    height: 500px;
+    filter: blur(10px);
+}
+.fav-wrapper img{
+    width: 100%;
+    height:100% ;
+    object-fit: cover;
+}
+
+.fav-wrapper div:hover{
+    flex-grow: 1;
+    filter: blur(0);
+}
+
