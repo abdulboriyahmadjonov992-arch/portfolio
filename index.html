@@ -75,27 +75,27 @@
             </div>
             <div class="oila-wrapper">
                 <div class="oila-card">
-                    <div class="oila-img" style="background-image: url('./adam.jpg')"></div>
+                    <div class="oila-img" style="background: url('./adam.jpg')no-repeat center / cover;"></div>
                     <div class="oila-info"><h4>Dadajonim</h4></div>
                 </div>
                 <div class="oila-card oila-card--tall">
-                    <div class="oila-img" style="background-image: url('./oyim.jpg')"></div>
+                    <div class="oila-img" style="background: url('./oyim.jpg') no-repeat center / cover"></div>
                     <div class="oila-info"><h4>Oyijonim</h4></div>
                 </div>
                 <div class="oila-card">
-                    <div class="oila-img" style="background-image: url('./opam.jpg')"></div>
+                    <div class="oila-img" style="background: url('./opam.jpg')no-repeat center / cover"></div>
                     <div class="oila-info"><h4>Opam</h4></div>
                 </div>
                 <div class="oila-card">
-                    <div class="oila-img oila-img--empty"></div>
+                    <div class="oila-img" style="background: url(./buvim.jpg)no-repeat center / cover ; "></div> 
                     <div class="oila-info"><h4>Buvim</h4></div>
                 </div>
                 <div class="oila-card">
-                    <div class="oila-img oila-img--empty"></div>
+                    <div class="oila-img" style="background: url(./ukam.jpg) no-repeat center / cover;"></div>
                     <div class="oila-info"><h4>Ukam</h4></div>
                 </div>
                 <div class="oila-card">
-                    <div class="oila-img oila-img--empty"></div>
+                    <div class="oila-img" style="background: url(./singlim.jpg) no-repeat center / cover;"></div>
                     <div class="oila-info"><h4>Singlim</h4></div>
                 </div>
             </div>
@@ -223,25 +223,7 @@
     </footer>
 
     <script>
-        const header = document.getElementById('header');
-        window.addEventListener('scroll', () => {
-            header.classList.toggle('scrolled', window.scrollY > 60);
-        });
-
-        document.querySelectorAll('a[href^="#"]').forEach(a => {
-            a.addEventListener('click', e => {
-                e.preventDefault();
-                const el = document.querySelector(a.getAttribute('href'));
-                if (el) el.scrollIntoView({ behavior: 'smooth' });
-            });
-        });
-
-        const toggle = document.getElementById('navToggle');
-        const navUl = document.querySelector('nav ul');
-        toggle.addEventListener('click', () => {
-            navUl.classList.toggle('open');
-            toggle.classList.toggle('active');
-        });
+       
     </script>
 </body>
 

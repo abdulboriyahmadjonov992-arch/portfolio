@@ -428,6 +428,7 @@ nav ul a:hover {
     background-position: center top;
     transition: transform 0.7s var(--ease);
     overflow: hidden;
+    background: url(./singlim.jpg);
 }
 
 .oila-card:hover .oila-img { transform: scale(1.05); }
