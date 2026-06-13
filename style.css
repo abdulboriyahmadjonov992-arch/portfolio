@@ -146,3 +146,52 @@ nav a:hover{
     filter: blur(0);
 }
 
+.abdulaziz{
+    width: 20%;
+    height: 400px;
+    background: url(./abdulaziz.jpg) no-repeat center / cover ;
+    border-radius: 10px;
+}
+
+.abdulaziz:hover{
+    transform: scale(0.9);
+}
+
+.shahriyor{
+    width: 20%;
+    height: 400px;
+    background: url(./shahriyor.jpg) no-repeat center / cover;
+    border-radius: 10px;
+}
+
+.shahriyor:hover{
+    transform: scale(0.9);
+}
+
+.davlatbek{
+    width: 20%;
+    height: 400px;
+    background: url(./davlatbek.jpg) no-repeat center / cover;
+    border-radius: 10px;
+}
+
+.davlatbek:hover{
+    transform: scale(0.9);
+}
+
+.Rasul{
+    width: 20%;
+    height: 400px;
+    background: url(./Rasul.jpg) no-repeat center / cover;
+    border-radius: 10px;
+}
+
+.Rasul:hover{
+    transform: scale(0.9);
+}
+
+.hero-imgs{
+    display: flex;
+    justify-content: space-between;
+}
+
