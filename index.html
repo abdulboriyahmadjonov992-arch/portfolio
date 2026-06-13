@@ -1,104 +1,230 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="uz">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Abdulboriy</title>
+    <title>Abdulboriy Ahmadjonov — Portfolio</title>
     <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <header>
+
+    <!-- ===== HEADER ===== -->
+    <header id="header">
         <div class="container">
             <nav>
-                <h1>Abdulboriy</h1>
+                <a href="#hero" class="nav-logo">Abdulboriy</a>
                 <ul>
-                    <li><a href="">men haqimda</a></li>
-                    <li><a href="">oilam</a></li>
-                    <li><a href="">guruhdoshlarim</a></li>
-                    <li><a href="">loyiha</a></li>
+                    <li><a href="#hero">Men haqimda</a></li>
+                    <li><a href="#oila">Oilam</a></li>
+                    <li><a href="#qiziqishlar">Qiziqishlarim</a></li>
+                    <li><a href="#guruhdoshlar">Guruhdoshlarim</a></li>
+                    <li><a href="#loyiha">Loyiha</a></li>
                 </ul>
+                <button class="nav-toggle" id="navToggle">
+                    <span></span><span></span><span></span>
+                </button>
             </nav>
         </div>
     </header>
 
+    <!-- ===== HERO ===== -->
     <section id="hero">
+        <div class="hero-bg-shape hero-bg-shape--1"></div>
+        <div class="hero-bg-shape hero-bg-shape--2"></div>
         <div class="container">
             <div class="hero-wrapper">
                 <div class="hero-text">
-                    <h1>Assalomu alekum! <br> Mening ismim <br> Abdulboriy</h1>
-                    <p>Men PDP junior sergeli filyalida fronted yonalishida oqiman.</p>
-                    <a href="">
-                        <button class="btn">men haqimda</button>
-                    </a>
+                    <span class="hero-label">Frontend Dasturchi</span>
+                    <h1>
+                        Assalomu<br>
+                        <em>alaykum,</em><br>
+                        men — <strong>Abdulboriy</strong>
+                    </h1>
+                    <p>PDP Junior Sergeli filialida frontend yo'nalishida ta'lim oluvchi, kod yozishni sevuvchi yosh dasturchi.</p>
+                    <a href="#oila" class="btn">Ko'proq bilish</a>
                 </div>
-                <div class="hero-img">
-                    <img src="./AHMADJONOV.jpg" width="350px" alt="">
+                <div class="hero-img-wrap">
+                    <div class="hero-img-frame">
+                        <img src="./AHMADJONOV.jpg" alt="Abdulboriy Ahmadjonov">
+                    </div>
+                    <div class="hero-img-badge">
+                        <span class="badge-num">3</span>
+                        <span class="badge-text">Oylik tajriba</span>
+                    </div>
                 </div>
             </div>
         </div>
+        <div class="hero-scroll">
+            <span>Pastga</span>
+            <div class="scroll-line"></div>
+        </div>
     </section>
 
-    <section>
-
-        <center>
-            <h1>Mening oilam</h1>
-        </center>
+    <!-- ===== OILAM ===== -->
+    <section id="oila">
         <div class="container">
+            <div class="section-header">
+                <span class="section-num">01</span>
+                <h2 class="section-title">Mening oilam</h2>
+                <div class="section-line"></div>
+            </div>
             <div class="oila-wrapper">
-                <div class="oila-hero">buvim</div>
-                <div class="oila-card">adam</div>
-                <div class="oila-about">oyim</div>
-                <div class="oila-container">opam</div>
-                <div class="oila-card">ukam</div>
-                <div class="oila-card">singlim</div>
-
-
+                <div class="oila-card">
+                    <div class="oila-img" style="background: url('./adam.jpg')no-repeat center / cover;"></div>
+                    <div class="oila-info"><h4>Dadajonim</h4></div>
+                </div>
+                <div class="oila-card oila-card--tall">
+                    <div class="oila-img" style="background: url('./oyim.jpg') no-repeat center / cover"></div>
+                    <div class="oila-info"><h4>Oyijonim</h4></div>
+                </div>
+                <div class="oila-card">
+                    <div class="oila-img" style="background: url('./opam.jpg')no-repeat center / cover"></div>
+                    <div class="oila-info"><h4>Opam</h4></div>
+                </div>
+                <div class="oila-card">
+                    <div class="oila-img" style="background: url(./buvim.jpg)no-repeat center / cover ; "></div> 
+                    <div class="oila-info"><h4>Buvim</h4></div>
+                </div>
+                <div class="oila-card">
+                    <div class="oila-img" style="background: url(./ukam.jpg) no-repeat center / cover;"></div>
+                    <div class="oila-info"><h4>Ukam</h4></div>
+                </div>
+                <div class="oila-card">
+                    <div class="oila-img" style="background: url(./singlim.jpg) no-repeat center / cover;"></div>
+                    <div class="oila-info"><h4>Singlim</h4></div>
+                </div>
             </div>
         </div>
     </section>
 
-    <center>
-        <h1>qiziqishlarim</h1>
-    </center>
-
-    <section id="qiziqishlarim">
+    <!-- ===== QIZIQISHLARIM ===== -->
+    <section id="qiziqishlar">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-num">02</span>
+                <h2 class="section-title">Qiziqishlarim</h2>
+                <div class="section-line"></div>
+            </div>
+        </div>
         <div class="fav-wrapper">
-            <div>
-                <img class="topuria" src="./plastation.png" alt="">
+            <div class="fav-item">
+                <img src="./plastation.png" alt="PlayStation">
+                <div class="fav-overlay"><span>PlayStation</span></div>
             </div>
-            <div>
-
-                <img class="olivera" src="./messi.png" alt="">
+            <div class="fav-item">
+                <img src="./messi.png" alt="Futbol">
+                <div class="fav-overlay"><span>Futbol</span></div>
             </div>
-            <div>
-
-                <img class="holloway" src="./gentra.png" alt="">
+            <div class="fav-item">
+                <img src="./gentra.png" alt="Gentra">
+                <div class="fav-overlay"><span>Gentra</span></div>
             </div>
-            <div>
-
-                <img class="islam" src="./kompyuter.png" alt="">
+            <div class="fav-item">
+                <img src="./kompyuter.png" alt="Dasturlash">
+                <div class="fav-overlay"><span>Dasturlash</span></div>
             </div>
-            <div>
-
-                <img class="porier" src="./standoff.png" alt="">
+            <div class="fav-item">
+                <img src="./standoff.png" alt="Standoff 2">
+                <div class="fav-overlay"><span>Standoff 2</span></div>
             </div>
         </div>
-        <center>
-            <h1>guruhdoshlarim</h1>
-        </center>
-        <div class="hero-imgs">
-        <div class="abdulaziz"></div>
-        <div class="shahriyor"></div>
-        <div class="davlatbek"></div>
-        <div class="Rasul"></div>
-        </div>
-        
-        
     </section>
 
+    <!-- ===== GURUHDOSHLARIM ===== -->
+    <section id="guruhdoshlar">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-num">03</span>
+                <h2 class="section-title">Guruhdoshlarim</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="guruh-wrapper">
+                <div class="guruh-card">
+                    <div class="guruh-img" style="background-image: url('./abdulaziz.jpg')"></div>
+                    <div class="guruh-info">
+                        <h4>Abdulaziz</h4>
+                        <span>Frontend</span>
+                    </div>
+                </div>
+                <div class="guruh-card">
+                    <div class="guruh-img" style="background-image: url('./shahriyor.jpg')"></div>
+                    <div class="guruh-info">
+                        <h4>Shahriyor</h4>
+                        <span>Frontend</span>
+                    </div>
+                </div>
+                <div class="guruh-card">
+                    <div class="guruh-img" style="background-image: url('./davlatbek.jpg')"></div>
+                    <div class="guruh-info">
+                        <h4>Davlatbek</h4>
+                        <span>Frontend</span>
+                    </div>
+                </div>
+                <div class="guruh-card">
+                    <div class="guruh-img" style="background-image: url('./Rasul.jpg')"></div>
+                    <div class="guruh-info">
+                        <h4>Rasul</h4>
+                        <span>Frontend</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
+    <!-- ===== LOYIHA ===== -->
+    <section id="loyiha">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-num">04</span>
+                <h2 class="section-title">Loyihalarim</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="loyiha-wrapper">
+                <div class="loyiha-card loyiha-card--active">
+                    <div class="loyiha-card-top">
+                        <span class="loyiha-tag">HTML & CSS</span>
+                        <span class="loyiha-year">2026</span>
+                    </div>
+                    <h3>Shaxsiy Portfolio</h3>
+                    <p>O'zimning birinchi portfoliom — HTML va CSS yordamida yaratilgan sahifa.</p>
+                    <div class="loyiha-footer">
+                        <span class="loyiha-status loyiha-status--done">Tayyor</span>
+                    </div>
+                </div>
+                <div class="loyiha-card">
+                    <div class="loyiha-card-top">
+                        <span class="loyiha-tag">JavaScript</span>
+                        <span class="loyiha-year">Yaqinda</span>
+                    </div>
+                    <h3>Keyingi Loyiha</h3>
+                    <p>JavaScript o'rganib bo'lgach, yangi loyiha boshlanadi.</p>
+                    <div class="loyiha-footer">
+                        <span class="loyiha-status loyiha-status--soon">Rejalashtirilgan</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer>
+        <div class="container">
+            <div class="footer-inner">
+                <span class="footer-name">Abdulboriy Ahmadjonov</span>
+                <span class="footer-copy">&copy; 2026 — Barcha huquqlar himoyalangan</span>
+                <span class="footer-credit">PDP Junior · Sergeli</span>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+       
+    </script>
 </body>
 
 </html>
