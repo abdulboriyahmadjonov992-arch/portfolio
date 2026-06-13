@@ -40,7 +40,7 @@ nav a{
 #hero{
     width: 100%;
     height: 100vh;
-    background: url(https://cdn.eso.org/images/screen/eso1124a.jpg);
+    background: url(https://minio.nplus1.ru/app-images/226544/conversions/63018ed0a7d63_cover-conversion-webp.webp);
     color: white;
 }
 
@@ -102,7 +102,6 @@ nav a:hover{
     justify-content: center;
     gap: 50px;
 }
-
 .oila-card{
     width: 30%;
     height: 400px;
